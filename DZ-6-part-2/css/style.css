@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: silver;
+    padding: 175px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.plus_mines {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+#input {
+    width: 500px;
+    height: 35px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    border: 2px solid;
+}
+
+#plus {
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+}
+
+#mines {
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+}
+
+.greenNum {
+    color: green;
+}
+
+.redNum {
+    color: red;
+}
+
+.grayNum {
+    color: gray;
+}
+
